@@ -3,7 +3,7 @@ import React from 'react'
 function Attendence() {
   return (
     <div>
-        <h1>Xuduurka pageka</h1>
+        <h1>Attendence page</h1>
     </div>
   )
 }

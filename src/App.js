@@ -7,6 +7,8 @@ import Holidays from './pages/Holidays'
 import Finance from './pages/Finance'
 import Employee from './pages/Employee'
 import Sidebar from './components/Sidebar'
+import Logout from './components/Logout'
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/Holidays' element={<Holidays/>}/>
         <Route path='/Finance' element={<Finance/>}/>
         <Route path='/Employee' element={<Employee/>}/>
+        {/* <Route path='/Logout' element={<Logout/>}/> */}
+        
         
       </Routes>
       </Sidebar>
